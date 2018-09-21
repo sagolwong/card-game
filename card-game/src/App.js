@@ -4,6 +4,7 @@ import './App.css';
 import CharacterCard from './CharacterCard';
 import WordCard from './WordCard';
 import { Time } from './Time';
+import { Footer } from './Footer';
 const word = "HELLO";
 
 class App extends Component {
@@ -18,6 +19,7 @@ class App extends Component {
       </div>
         <WordCard value={word}/>    
         <Time/>
+        <Footer/>
       </div>
     );
   }
