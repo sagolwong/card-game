@@ -22,9 +22,11 @@ export default class WordCard extends Component{
         this.setState({guess})
         if (guess.length === this.state.chars.length){
             if(guess === this.state.word){
-                this.setState({guess: [],complete:true})
+                this.setState({guess: [],completed:true})
+                alert("You Win!!")
             }else{
                 this.setState({guess:[],attempt:this.state.attempt+1 })
+                alert("Try Agains")
             }
         }
     }
