@@ -13,6 +13,7 @@ class App extends Component {
         <div className="App">
           <div className="App-header">
             <h2>GAME LOGIC</h2>
+            <img src={logo} className="App-logo" alt="logo"/>
           </div>
       </div>
         <WordCard value={word}/>    
