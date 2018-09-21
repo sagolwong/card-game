@@ -10,6 +10,11 @@ class App extends Component {
   render() {
     return (
       <div>
+        <div className="App">
+          <div className="App-header">
+            <h2>GAME LOGIC</h2>
+          </div>
+      </div>
         <WordCard value={word}/>    
         <Time/>
       </div>
